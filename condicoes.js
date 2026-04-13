@@ -28,7 +28,19 @@ Para decidir, você precisa comparar. Use estes símbolos:
 - **OR (`||`):** É verdade se **PELO MENOS UM** for verdade. (Ex: O alarme toca se a porta abrir **OU** se o sensor de movimento detectar algo).
 - **NOT (`!`):** Inverte o valor. Se é `true`, vira `false`. */
 
+let lanternaFunciona = false
+let testedepilha = true
+let testePancadinhas = true
 
+
+if (lanternaFunciona === false){
+    console.log(`a lanterna nao funciona `);
+
+}else if(testePancadinhas === true && lanternaFunciona === true){
+    console.log(`a lanterna funciona mas precisa de pancadinhas `);
+}else if(testePancadinhas === true && lanternaFunciona === false){
+    console.log(`a lanterna nao esta com mal contato teste as pilhas  `);
+}
 
 
 
